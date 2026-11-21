@@ -1,6 +1,6 @@
 # Maintainer: Clairlune contributors
 pkgname=clairlune-bin
-pkgver=0.13.0
+pkgver=0.13.1
 pkgrel=1
 pkgdesc="Procedural, animated ASCII-art desktop wallpapers"
 arch=('x86_64')
@@ -13,7 +13,7 @@ optdepends=(
   'vulkan-icd-loader: GPU drawing for the windows'
 )
 source_x86_64=("https://github.com/yam333/Clairlune/releases/download/v${pkgver}/clairlune_${pkgver}_amd64.deb")
-sha256sums_x86_64=('7bb58662ca8dd3e30f758db65f85ee874e78942fd89b4759eafb9a1e7c3396a3')
+sha256sums_x86_64=('ab58cecf987df5834cf617cd2f4446bbe50a029f31325accac286be7b20ae628')
 
 package() {
   bsdtar -xf data.tar.* -C "$pkgdir"
