@@ -21,12 +21,16 @@ cask "clairlune" do
 
   app "Clairlune.app"
 
-  # The start-at-login agent the app adds.
-  uninstall launchctl: "app.clairlune"
-
+  # No `uninstall launchctl:` for the start-at-login agent: Homebrew runs
+  # uninstall on every upgrade too, where it stopped the running app,
+  # deleted the agent (start at login off) and asked for an admin password
+  # to look for a system-wide one. Settings > General > Remove Clairlune
+  # takes the agent away; so does zap. (The screen saver lines are for
+  # versions before 0.18, which had one.)
   zap trash: [
     "~/Library/Application Support/clairlune",
     "~/Library/Containers/com.apple.ScreenSaver.Engine.legacyScreenSaver/Data/Library/Logs/Clairlune Saver.log",
+    "~/Library/LaunchAgents/app.clairlune.plist",
     "~/Library/Screen Savers/Clairlune.saver",
   ]
 
