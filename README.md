@@ -23,6 +23,5 @@ Windows can also use winget (`winget install Clairlune.Clairlune`) once the pack
 
 - `Casks/clairlune.rb`: the Homebrew cask.
 - `bucket/clairlune.json`: the Scoop manifest.
-- `aur/clairlune-bin/`: the Arch User Repository package (`PKGBUILD`, `.SRCINFO`), for the AUR maintainer to push.
 
-All are generated from each release's files by `scripts/package_manifests.py` in the main repository. Don't edit them here by hand.
+Both are generated from each release's files by `scripts/package_manifests.py` in the main repository. Don't edit them here by hand.
