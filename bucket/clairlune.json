@@ -1,13 +1,13 @@
 {
-    "version": "0.17.4",
+    "version": "0.17.5",
     "description": "Procedural, animated ASCII-art desktop wallpapers",
     "homepage": "https://github.com/yam333/Clairlune",
     "license": "MIT OR Apache-2.0",
     "notes": "Clairlune runs in the notification area (the moon icon).",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/yam333/Clairlune/releases/download/v0.17.4/clairlune_0.17.4_x64-portable.zip",
-            "hash": "f5f22d4f24a3ea62f355741241fd58f9ab799033f7a0a13818c7cbc60fab72c7"
+            "url": "https://github.com/yam333/Clairlune/releases/download/v0.17.5/clairlune_0.17.5_x64-portable.zip",
+            "hash": "e5510d3256f7eb76a319f1607ba56e46eefaa9c182e1a95a406e32ae72b0d807"
         }
     },
     "bin": "clairlune.exe",

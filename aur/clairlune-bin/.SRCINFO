@@ -1,6 +1,6 @@
 pkgbase = clairlune-bin
 	pkgdesc = Procedural, animated ASCII-art desktop wallpapers
-	pkgver = 0.17.4
+	pkgver = 0.17.5
 	pkgrel = 1
 	url = https://github.com/yam333/Clairlune
 	arch = x86_64
@@ -12,7 +12,7 @@ pkgbase = clairlune-bin
 	optdepends = vulkan-icd-loader: GPU drawing for the windows
 	provides = clairlune
 	conflicts = clairlune
-	source_x86_64 = https://github.com/yam333/Clairlune/releases/download/v0.17.4/clairlune_0.17.4_amd64.deb
-	sha256sums_x86_64 = 03c09c22da58a2449a864751cddd5afda8786839b7789e91bd1c9115873c424d
+	source_x86_64 = https://github.com/yam333/Clairlune/releases/download/v0.17.5/clairlune_0.17.5_amd64.deb
+	sha256sums_x86_64 = f125522b24f5aed15fe5472515f57bf51e48070806579fe09a2c040e1f716c5b
 
 pkgname = clairlune-bin
