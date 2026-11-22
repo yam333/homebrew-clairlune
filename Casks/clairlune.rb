@@ -15,11 +15,20 @@ cask "clairlune" do
     strategy :github_latest
   end
 
-  depends_on macos: ">= :ventura"
+  # Clairlune updates itself (Settings > General > Update now).
+  auto_updates true
+  depends_on macos: :ventura
 
   app "Clairlune.app"
 
-  zap trash: "~/Library/Application Support/clairlune"
+  # The start-at-login agent the app adds.
+  uninstall launchctl: "app.clairlune"
+
+  zap trash: [
+    "~/Library/Application Support/clairlune",
+    "~/Library/Containers/com.apple.ScreenSaver.Engine.legacyScreenSaver/Data/Library/Logs/Clairlune Saver.log",
+    "~/Library/Screen Savers/Clairlune.saver",
+  ]
 
   caveats <<~EOS
     Clairlune runs in the menu bar (the moon icon).
