@@ -1,9 +1,9 @@
 cask "clairlune" do
   arch arm: "aarch64", intel: "x64"
 
-  version "0.24.0"
-  sha256 arm:   "45c1d257d5a6a2bce25f14c0de75cd77f34ff3579e1b7f682488e44debf55d18",
-         intel: "6370b3fa50cd0246292bf9b57416b6779eeef10350370fb104bda524f13214e0"
+  version "0.25.0"
+  sha256 arm:   "6dd42ec1e892ec76f8c6db5635b7d5a7d6114da1b0bdd9c158a59a239bb005e8",
+         intel: "269173adb4f65af0aaa1c836e664b3311ba8931016c91f931e2b8b5277030594"
 
   url "https://github.com/yam333/Clairlune/releases/download/v#{version}/Clairlune_#{version}_#{arch}.dmg"
   name "Clairlune"
