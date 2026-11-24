@@ -8,7 +8,7 @@ Install [Clairlune](https://github.com/yam333/Clairlune), procedural animated AS
 brew install --cask yam333/clairlune/clairlune
 ```
 
-Clairlune isn't notarized by Apple yet. If macOS won't open it the first time, open System Settings > Privacy & Security and click Open Anyway.
+The first time you open it, macOS blocks it, since it isn't notarized by Apple: click **Done** (not Move to Trash), then **Open Anyway** at the bottom of System Settings > Privacy & Security. The [Terminal installer](https://github.com/yam333/Clairlune#install) has no such step.
 
 ## Windows (Scoop)
 
