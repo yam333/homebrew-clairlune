@@ -1,9 +1,9 @@
 cask "clairlune" do
   arch arm: "aarch64", intel: "x64"
 
-  version "0.29.1"
-  sha256 arm:   "ce65732fc041ba2a037dff53d63c3d8d51f28213b74c8f41c3ae81ea4b2519c2",
-         intel: "d95a34851eb82b6d61588569871bf1387302307e3b54f25af5ad70b8513e680e"
+  version "0.30.0"
+  sha256 arm:   "ee88f6e976f2621a7528f46c34941e34b29e997810661efbc82c6398389630b9",
+         intel: "f57a494f81df3742ede1fb4751dfdca81e7e4842d9f456a4838752548e5245a3"
 
   url "https://github.com/yam333/Clairlune/releases/download/v#{version}/Clairlune_#{version}_#{arch}.dmg"
   name "Clairlune"
@@ -35,7 +35,7 @@ cask "clairlune" do
   ]
 
   caveats <<~EOS
-    Clairlune runs in the menu bar (the moon icon).
+    Clairlune runs in the menu bar (the square over a circle).
 
     The first time you open it, macOS blocks it. Click Done (not Move to
     Trash), then Open Anyway at the bottom of Privacy & Security:
