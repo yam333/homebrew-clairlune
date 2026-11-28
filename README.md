@@ -1,6 +1,6 @@
 # Clairlune for Homebrew and Scoop
 
-Install [Clairlune](https://github.com/yam333/Clairlune), procedural animated ASCII-art desktop wallpapers, with a package manager.
+Install [Clairlune](https://yam333.github.io/Clairlune/), procedural animated ASCII-art desktop wallpapers, with a package manager. The source is at [yam333/Clairlune](https://github.com/yam333/Clairlune), and the [user guide](https://yam333.github.io/Clairlune/guide/) covers everything after installing.
 
 ## macOS (Homebrew)
 
@@ -8,7 +8,7 @@ Install [Clairlune](https://github.com/yam333/Clairlune), procedural animated AS
 brew install --cask yam333/clairlune/clairlune
 ```
 
-The first time you open it, macOS blocks it, since it isn't notarized by Apple: click **Done** (not Move to Trash), then **Open Anyway** at the bottom of System Settings > Privacy & Security. The [Terminal installer](https://github.com/yam333/Clairlune#install) has no such step.
+The first time you open it, macOS blocks it, since it isn't notarized by Apple: click **Done** (not Move to Trash), then **Open Anyway** at the bottom of System Settings > Privacy & Security. The [Terminal installer](https://yam333.github.io/Clairlune/guide/#macos) has no such step.
 
 ## Windows (Scoop)
 
