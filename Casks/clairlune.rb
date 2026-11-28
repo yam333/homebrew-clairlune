@@ -1,14 +1,15 @@
 cask "clairlune" do
   arch arm: "aarch64", intel: "x64"
 
-  version "0.36.0"
-  sha256 arm:   "07e5234f82f61da95f9a33a0c90ff1658c6aeb7dd5a19525b41880b6b25b1926",
-         intel: "bd2b930f11fac8de51034ccb0a78bc5bb1870fa2907f3d10a25f50c375731eff"
+  version "0.36.1"
+  sha256 arm:   "29cccb8e39c5913ca895caf220e971d9b834de0e2b435ae8eb02bd37f8e71cfa",
+         intel: "377845883493881e2d0ad308c3ef5661a93e8b07e7c9d049f8d90c0805e636f8"
 
-  url "https://github.com/yam333/Clairlune/releases/download/v#{version}/Clairlune_#{version}_#{arch}.dmg"
+  url "https://github.com/yam333/Clairlune/releases/download/v#{version}/Clairlune_#{version}_#{arch}.dmg",
+      verified: "github.com/yam333/Clairlune/"
   name "Clairlune"
   desc "Procedural, animated ASCII-art desktop wallpapers"
-  homepage "https://github.com/yam333/Clairlune"
+  homepage "https://yam333.github.io/Clairlune/"
 
   livecheck do
     url :url
